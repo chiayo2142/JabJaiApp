@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/school_report"
+        android:title="รายงานเข้า-ออกโรงเรียน"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/attend_class_report"
+        android:title="รายงานเข้า-ออกวิชาเรียน"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/shopping_report"
+        android:title="รายงานการซื้อสินค้า"
+        app:showAsAction="never" />
+</menu>

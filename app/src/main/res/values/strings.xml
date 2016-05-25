@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">JabJaiApp</string>
+    <string name="login">Login</string>
+    <string name="forgot_password"><u><a href="#">Forgot Password?</a></u></string>
+    <string name="signup"><u><a href="#">Signup</a></u></string>
+    <string name="search">Search</string>
 </resources>
