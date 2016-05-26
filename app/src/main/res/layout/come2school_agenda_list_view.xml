@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="วันที่ 22/12/2552"
+        android:textColor="#000"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvComeTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvDate"
+        android:layout_alignStart="@+id/tvDate"
+        android:layout_below="@+id/tvDate"
+        android:layout_marginTop="5dp"
+        android:text="เวลาเข้า : 8.00 น."
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/tvComeStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tvComeTime"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@+id/tvDate"
+        android:layout_toRightOf="@+id/tvDate"
+        android:text="สถานะ : ตรงเวลา"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/tvLeaveTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvComeTime"
+        android:layout_alignStart="@+id/tvComeTime"
+        android:layout_below="@+id/tvComeTime"
+        android:layout_marginTop="5dp"
+        android:text="เวลาออก : 16.00 น."
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/tvLeaveStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvComeStatus"
+        android:layout_alignStart="@+id/tvComeStatus"
+        android:layout_alignTop="@+id/tvLeaveTime"
+        android:text="สถานะ : ตรงเวลา"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/tvRemark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvLeaveTime"
+        android:layout_alignStart="@+id/tvLeaveTime"
+        android:layout_below="@+id/tvLeaveTime"
+        android:layout_marginTop="5dp"
+        android:text="หมายเหตุ : -"
+        android:textColor="#000" />
+</RelativeLayout>

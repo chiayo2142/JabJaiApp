@@ -18,7 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".CreditBureauActivity" />
-        <activity android:name=".ComeToSchoolActivity"></activity>
+        <activity android:name=".ComeToSchoolActivity" />
+        <activity android:name=".Come2School.ComeToSchoolActivity"></activity>
     </application>
 
 </manifest>
